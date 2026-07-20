@@ -19,6 +19,10 @@ jobs:
         working-directory: neo-anki
       - run: npm ci
         working-directory: neoanki-insights
-      - run: npm run typecheck && npm test && npm run check && npm run build
+      - run: npm run typecheck && npm test
         working-directory: neoanki-insights
-
+      - if: github.event_name == 'push'
+        run: npm run check && npm run build
+        working-directory: neoanki-insights
+        env:
+          NEO_ANKI_EXTENSION_SIGNING_KEY: ${{ secrets.NEO_ANKI_EXTENSION_SIGNING_KEY }}
