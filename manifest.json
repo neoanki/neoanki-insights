@@ -1,0 +1,21 @@
+{
+  "format": "neo-anki-extension",
+  "schemaVersion": 2,
+  "id": "org.neoanki.insights",
+  "name": "Memory Insights",
+  "version": "2.0.0",
+  "sdkVersion": 2,
+  "publisher": "NeoAnki contributors",
+  "description": "Read-only collection workload and organization insights without mastery claims.",
+  "homepage": "https://github.com/neoanki/neoanki-insights",
+  "publisherKey": "MCowBQYDK2VwAyEAEWk872RMMdql1/bWKBBp9qEiR1O1lPZkg+BnC1Xs98k=",
+  "permissions": ["content:read", "ui:page"],
+  "workerEntry": "dist/worker.js",
+  "uiEntries": [{ "id": "page", "surface": "page", "entry": "dist/page.js" }],
+  "provenance": {
+    "sourceCommit": "0000000000000000000000000000000000000000",
+    "coreCommit": "23b063f75868a6c104eb5ed157fc44df9179b466",
+    "buildSystem": "neo-anki-extension-cli"
+  }
+}
+

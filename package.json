@@ -1,0 +1,22 @@
+{
+  "name": "@neoanki/insights",
+  "version": "2.0.0",
+  "description": "Read-only collection insights for NeoAnki.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "neoAnki": {
+    "workerEntry": "src/worker.ts",
+    "uiEntries": { "page": "src/page.ts" },
+    "coreRef": "23b063f75868a6c104eb5ed157fc44df9179b466"
+  },
+  "scripts": {
+    "build": "neo-anki-extension build",
+    "check": "neo-anki-extension check",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "@neo-anki/extension-sdk": "file:../neo-anki/packages/extension-sdk" },
+  "devDependencies": { "typescript": "~5.9.3", "vitest": "^4.1.0" }
+}
+
