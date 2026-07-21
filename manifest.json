@@ -2,11 +2,11 @@
   "format": "neo-anki-extension",
   "schemaVersion": 2,
   "id": "org.neoanki.insights",
-  "name": "Memory Insights",
-  "version": "2.0.0",
+  "name": "Collection Insights",
+  "version": "2.0.1",
   "sdkVersion": 2,
   "publisher": "NeoAnki contributors",
-  "description": "Read-only collection workload and organization insights without mastery claims.",
+  "description": "Summarize due cards, deck sizes, common tags, and notes that need attention.",
   "homepage": "https://github.com/neoanki/neoanki-insights",
   "publisherKey": "MCowBQYDK2VwAyEAEWk872RMMdql1/bWKBBp9qEiR1O1lPZkg+BnC1Xs98k=",
   "permissions": ["content:read", "ui:page"],
@@ -18,4 +18,3 @@
     "buildSystem": "neo-anki-extension-cli"
   }
 }
-
