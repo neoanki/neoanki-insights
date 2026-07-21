@@ -1,7 +1,7 @@
 {
   "name": "@neoanki/insights",
-  "version": "2.0.0",
-  "description": "Read-only collection insights for NeoAnki.",
+  "version": "2.0.1",
+  "description": "Collection workload, organization, and content-health summaries for Neo Anki.",
   "license": "MIT",
   "type": "module",
   "private": true,
@@ -19,4 +19,3 @@
   "dependencies": { "@neo-anki/extension-sdk": "file:../neo-anki/packages/extension-sdk" },
   "devDependencies": { "typescript": "~5.9.3", "vitest": "^4.1.0" }
 }
-
