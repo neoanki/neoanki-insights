@@ -14,7 +14,7 @@ Collection Insights reports collection facts and workload. It does not estimate 
 
 ## Install
 
-Download the `.neoanki-extension` file from the latest release, then open **Settings → Extensions → Install from file** in Neo Anki.
+Download the `.neoanki-extension` file from the latest release, then open **Extensions → Browse → Install from file** in Neo Anki.
 
 ## Privacy and permissions
 
