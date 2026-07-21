@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { path: neoanki-insights }
       - uses: actions/checkout@v4
-        with: { repository: neoanki/neo-anki, path: neo-anki, ref: 23b063f75868a6c104eb5ed157fc44df9179b466 }
+        with: { repository: neoanki/neo-anki, path: neo-anki, ref: 7ad6541f1e4a15553d6ffd31c70708ae193691fe }
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: npm ci && npm run extension:sdk

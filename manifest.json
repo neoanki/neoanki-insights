@@ -3,7 +3,8 @@
   "schemaVersion": 2,
   "id": "org.neoanki.insights",
   "name": "Collection Insights",
-  "version": "2.0.1",
+  "version": "2.0.2",
+  "minimumNeoAnkiVersion": "0.4.0",
   "sdkVersion": 2,
   "publisher": "NeoAnki contributors",
   "description": "Summarize due cards, deck sizes, common tags, and notes that need attention.",
@@ -11,10 +12,10 @@
   "publisherKey": "MCowBQYDK2VwAyEAEWk872RMMdql1/bWKBBp9qEiR1O1lPZkg+BnC1Xs98k=",
   "permissions": ["content:read", "ui:page"],
   "workerEntry": "dist/worker.js",
-  "uiEntries": [{ "id": "page", "surface": "page", "entry": "dist/page.js" }],
+  "uiEntries": [{ "id": "page", "surface": "page", "entry": "dist/page.js", "label": "Collection Insights", "description": "See collection health, due work, common tags, and items needing attention.", "icon": "chart-no-axes-column", "launchDestination": "extension-page" }],
   "provenance": {
     "sourceCommit": "0000000000000000000000000000000000000000",
-    "coreCommit": "23b063f75868a6c104eb5ed157fc44df9179b466",
+    "coreCommit": "7ad6541f1e4a15553d6ffd31c70708ae193691fe",
     "buildSystem": "neo-anki-extension-cli"
   }
 }
