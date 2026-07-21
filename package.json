@@ -1,6 +1,6 @@
 {
   "name": "@neoanki/insights",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Collection workload, organization, and content-health summaries for Neo Anki.",
   "license": "MIT",
   "type": "module",
@@ -10,7 +10,7 @@
     "uiEntries": {
       "page": "src/page.ts"
     },
-    "coreRef": "7ad6541f1e4a15553d6ffd31c70708ae193691fe"
+    "coreRef": "4f40587f9066eedfe84d603716d0dbb711153f50"
   },
   "scripts": {
     "build": "neo-anki-extension build",
